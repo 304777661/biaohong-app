@@ -1,0 +1,17 @@
+{
+  "titleNView": {
+    "titleText": "个人中心",
+    "tags": [
+      {
+        "tag": "img",
+        "src": "static/my/fabu.png",
+        "position": {
+          "right": "10px",
+          "top": "auto",
+          "width": "20px",
+          "height": "20px"
+        }
+      }
+    ]
+  }
+}

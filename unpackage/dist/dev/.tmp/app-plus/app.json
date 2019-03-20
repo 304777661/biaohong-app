@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/bookingSpace",
+    "pages/index/membershipCard",
+    "pages/index/my",
+    "pages/index/address",
+    "pages/index/address-search",
+    "pages/index/arround-list",
+    "pages/index/company-news",
+    "pages/login/login-yiqian",
+    "pages/login/register",
+    "pages/login/forget-psd",
+    "pages/login/login",
+    "pages/reg/reg",
+    "pages/pwd/pwd"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "red",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#a9a9a9",
+    "selectedColor": "#E60012",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/shouye01.png",
+        "selectedIconPath": "static/shouye02.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/bookingSpace",
+        "iconPath": "static/changdi01.png",
+        "selectedIconPath": "static/changdi02.png",
+        "text": "预约场地"
+      },
+      {
+        "pagePath": "pages/index/membershipCard",
+        "iconPath": "static/vip01.png",
+        "selectedIconPath": "static/vip02.png",
+        "text": "基地会员卡"
+      },
+      {
+        "pagePath": "pages/index/my",
+        "iconPath": "static/wode01.png",
+        "selectedIconPath": "static/wode02.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "骉轟科技"
+}

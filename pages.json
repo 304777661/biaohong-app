@@ -1,0 +1,190 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+		    "style" : {
+			    "navigationBarTitleText" : "骉轟科技",
+			    "app-plus" : {
+			        "titleNView" : {
+			            "buttons" : [
+			                {
+			                    "text" : "望城基地",
+			                    "fontSize" : "14",
+			                    "select" : true,
+			                    "width" : "auto"
+			                }
+			            ]
+			        }
+			    }
+			}
+		},
+		{
+			"path": "pages/index/bookingSpace",
+			"style": {
+				"navigationBarTitleText": "场地预约",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/index/membershipCard",
+			"style" : {
+				"navigationBarTitleText" : "会员中心",
+				"app-plus" : {
+					"titleNView" : {
+						"buttons" : [
+							{
+							    "text" : "望城基地",
+							    "fontSize" : "14",
+							    "select" : true,
+							    "width" : "auto"
+							}
+						]
+					},
+					"bounce" : "none"
+				}
+			}
+		},
+		{
+			"path": "pages/index/my",
+			"style" : {
+			    "app-plus" : {
+			        "titleNView" : {
+			            "titleText" : "个人中心",
+			            "tags" : [
+			                {
+			                    "tag" : "img",
+			                    "src" : "static/my/fabu.png",
+			                    "position" : {
+			                        "right" : "10px",
+			                        "top" : "auto",
+			                        "width" : "20px",
+			                        "height" : "20px"
+			                    }
+			                }
+			            ]
+			        }
+			    }
+			}
+		},
+		{
+			"path" : "pages/index/address", 
+			"style" : { 
+				"navigationBarTitleText" : "城市", 
+				"app-plus":{ 
+					"bounce":"none",
+					"scrollIndicator":"none"
+				}
+			}
+		}, 
+		{ 
+			"path" : "pages/index/address-search", 
+			"style" : { 
+				"navigationBarTitleText" : "城市地区搜索"
+			} 
+		},
+		{
+		    "path" : "pages/index/arround-list",
+		    "style" : {
+				"navigationBarTitleText" : "导航栏带搜索框",
+				"app-plus": {
+					"titleNView": {
+						"titleColor":"#fff",
+						"backgroundColor":"#E60012",
+						"buttons": [{
+							"width": "40px",
+							"fontSize": "28px",
+							"color":"#fff",
+							"background": "rgba(0,0,0,0)"
+						
+						}],
+						"searchInput": {
+							"backgroundColor": "#fff",
+							"borderRadius": "6px",
+							"placeholder": "请输入服务名称",
+							"disabled": true
+						}
+					}
+				}
+			}
+		},
+		{ 
+			"path" : "pages/index/company-news", 
+			"style" : { 
+				"navigationBarTitleText" : "公司公告"    
+			} 
+		}, {
+            "path": "pages/login/login-yiqian",
+            "style": {
+                "navigationBarTitleText": "登录"
+            }
+        },{
+            "path": "pages/login/register",
+            "style": {
+                "navigationBarTitleText": "登录",
+                "navigationStyle": "custom",
+                "titleNView": false
+            }
+        },{
+            "path": "pages/login/forget-psd",
+            "style": {
+                "navigationBarTitleText": "忘记密码",
+                "navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+            }
+        }, {
+            "path": "pages/login/login",
+            "style": {
+                "navigationBarTitleText": "注册",
+				"navigationStyle": "custom",
+				"titleNView": false
+            }
+        }, {
+            "path": "pages/reg/reg",
+            "style": {
+                "navigationBarTitleText": "注册"
+            }
+        }, {
+            "path": "pages/pwd/pwd",
+            "style": {
+                "navigationBarTitleText": "忘记密码"
+            }
+        }
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "red",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar" : {
+	    "color" : "#a9a9a9",
+	    "selectedColor" : "#E60012",
+	    "backgroundColor" : "#F8F8F8",
+	    "list" : [
+	        {
+	            "pagePath" : "pages/index/index",
+	            "iconPath" : "static/shouye01.png",
+	            "selectedIconPath" : "static/shouye02.png",
+	            "text" : "首页"
+	        },
+	        {
+	            "pagePath" : "pages/index/bookingSpace",
+	            "iconPath" : "static/changdi01.png",
+	            "selectedIconPath" : "static/changdi02.png", 
+	            "text" : "预约场地"
+	        },
+	        {
+	            "pagePath" : "pages/index/membershipCard",
+	            "iconPath" : "static/vip01.png",
+	            "selectedIconPath" : "static/vip02.png", 
+	            "text" : "基地会员卡"
+	        },
+	        {
+	            "pagePath" : "pages/index/my",
+	            "iconPath" : "static/wode01.png",
+	            "selectedIconPath" : "static/wode02.png", 
+	            "text" : "我的"
+	        }
+	    ]
+	}
+}

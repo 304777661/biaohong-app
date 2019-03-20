@@ -1,0 +1,99 @@
+
+.status {
+	height: var(--status-bar-height);
+	background: #dedede;
+}
+.garden-right {
+	float: right;
+}
+.garden-right image {
+	width: 257rpx;
+	height: 313rpx;
+}
+.garden-left {
+	padding-top: 130rpx;
+	padding-left: 22rpx;
+}
+.garden-left image {
+	width: 105rpx;
+	height: 105rpx;
+}
+.login-text {
+	margin-top: 54rpx;
+	padding-left: 23rpx;
+	font-size: 55rpx;
+	letter-spacing: 8rpx;
+	color: #333333;
+}
+.subtitle {
+	margin-top: 19rpx;
+	padding-left: 23rpx;
+	font-size: 27rpx;
+	color: #333333;
+}
+.form-login {
+	margin-top: 56rpx;
+	display: block;
+	width: 100%;
+}
+.form-login ._label {
+	font-size: 27rpx;
+	padding: 0 75rpx;
+	color: #999;
+	margin-top: 40rpx;
+	display: block;
+}
+.form-login view {
+	margin: 0 75rpx;
+	position: relative;
+	/* height: 75upx;
+	line-height: 75upx;
+	border-bottom: 1upx solid #6d788b; */
+	-webkit-box-sizing: content-box;
+	        box-sizing: content-box;
+}
+.form-login .login-input {
+	padding: 5rpx 150rpx 5rpx 0;
+	height: 75rpx;
+	line-height: 75rpx;
+	color: #333333;
+	/* padding-right: 150upx; */
+	border-bottom: 1rpx solid #6d788b;
+}
+.form-login .login-input:focus {
+	border-bottom-color: #e60012;
+}
+.form-login image {
+	width: 40rpx;
+	position: absolute;
+	top: 20rpx;
+	right: 45rpx;
+}
+.form-login image.verif-code {
+	width: 150rpx;
+	height: 29rpx;
+	right: 0;
+}
+.go-login {
+	padding: 0 75rpx;
+	margin-top: 25rpx;
+	display: block;
+	font-size: 30rpx;
+	color: #333;
+}
+.login-btn {
+	margin-top: 70rpx;
+	width: 600rpx;
+	height: 100rpx;
+	line-height: 100rpx;
+	border-radius: 50rpx;
+	font-size: 33rpx;
+	color: #fff;
+}
+.assent {
+	font-size: 27rpx;
+	color: #333333;
+	margin: 70rpx 0 60rpx;
+	text-align: center;
+}
+

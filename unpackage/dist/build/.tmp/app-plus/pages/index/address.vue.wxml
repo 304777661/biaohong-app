@@ -1,0 +1,1 @@
+<import src="/components/address-directory/address-directory.vue.wxml" /><template name="d5be2652"><view class="_view d5be2652"><view class="_view d5be2652"><template bindparamClick="handleProxy" data-eventid="{{'d5be2652-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'d5be2652-0'],$root}}" is="b471b656"></template></view></view></template>

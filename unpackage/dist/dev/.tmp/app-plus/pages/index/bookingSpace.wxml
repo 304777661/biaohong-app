@@ -1,0 +1,2 @@
+<import src="./bookingSpace.vue.wxml" />
+    <template is="2b940d2a" data="{{ ...$root['0'], $root }}"/>

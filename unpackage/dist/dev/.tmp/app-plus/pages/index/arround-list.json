@@ -1,0 +1,21 @@
+{
+  "navigationBarTitleText": "导航栏带搜索框",
+  "titleNView": {
+    "titleColor": "#fff",
+    "backgroundColor": "#E60012",
+    "buttons": [
+      {
+        "width": "40px",
+        "fontSize": "28px",
+        "color": "#fff",
+        "background": "rgba(0,0,0,0)"
+      }
+    ],
+    "searchInput": {
+      "backgroundColor": "#fff",
+      "borderRadius": "6px",
+      "placeholder": "请输入服务名称",
+      "disabled": true
+    }
+  }
+}

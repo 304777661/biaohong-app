@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "会员中心",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "望城基地",
+        "fontSize": "14",
+        "select": true,
+        "width": "auto"
+      }
+    ]
+  },
+  "bounce": "none"
+}

@@ -1,0 +1,14 @@
+<import src="/components/m-input.vue.wxml" />
+<import src="/components/address-directory/address-directory.vue.wxml" />
+<import src="/components/address-directory/address-search-list.vue.wxml" />
+<import src="/components/uni-media-list/uni-media-list.vue.wxml" />
+<import src="/components/uni-load-more.vue.wxml" />
+<import src="/components/uni-segmented-control.vue.wxml" />
+<import src="/components/uni-media-list/uni-info-list.vue.wxml" />
+<import src="/components/m-icon/m-icon.vue.wxml" />
+<import src="/components/uni-status-bar.vue.wxml" />
+<import src="/components/uni-icon.vue.wxml" />
+<import src="/common/slots.wxml" />
+<import src="/components/address-directory/address-list.vue.wxml" />
+<import src="/components/address-directory/address-alphabet.vue.wxml" />
+

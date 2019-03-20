@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "骉轟科技",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "望城基地",
+        "fontSize": "14",
+        "select": true,
+        "width": "auto"
+      }
+    ]
+  }
+}
